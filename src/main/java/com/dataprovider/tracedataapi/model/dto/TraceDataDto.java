@@ -24,6 +24,7 @@ public class TraceDataDto {
         .lastQueryAtBureauOfCredit(entity.getLastQueryAtBureauOfCredit())
         .financialMovementList(entity.getFinancialMovementList())
         .lastCreditCardPaymentData(entity.getLastCreditCardPaymentData())
+        .updatedAt(entity.getUpdatedAt().toString())
         .build();
   }
 }

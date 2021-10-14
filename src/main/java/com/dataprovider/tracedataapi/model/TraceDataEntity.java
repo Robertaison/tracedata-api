@@ -34,6 +34,7 @@ public class TraceDataEntity {
         .lastQueryAtBureauOfCredit(dto.getLastQueryAtBureauOfCredit())
         .financialMovementList(dto.getFinancialMovementList())
         .lastCreditCardPaymentData(dto.getLastCreditCardPaymentData())
+        .updatedAt(LocalDateTime.parse(dto.getUpdatedAt()))
         .build();
   }
 }
