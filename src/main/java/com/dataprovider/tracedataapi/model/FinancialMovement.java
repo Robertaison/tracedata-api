@@ -4,10 +4,9 @@ import java.time.LocalDateTime;
 import lombok.Data;
 
 @Data
-public class LastCreditCardPaymentDataEntity {
-  private String companyName;
+public class FinancialMovement {
+
   private String amount;
-  private String card;
-  private String issuerBank;
+  private String type;
   private LocalDateTime dateTime;
 }

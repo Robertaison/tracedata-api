@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import lombok.Data;
 
 @Data
-public class BureauOfCreditQueryEntity {
+public class BureauOfCreditQuery {
   private String name;
   private LocalDateTime date;
 }

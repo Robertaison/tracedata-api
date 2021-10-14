@@ -23,9 +23,9 @@ public class TraceDataEntity {
   private String id;
 
   private String cpf;
-  private BureauOfCreditQueryEntity lastQueryAtBureauOfCredit;
-  private List<FinancialMovementEntity> financialMovementList;
-  private LastCreditCardPaymentDataEntity lastCreditCardPaymentData;
+  private BureauOfCreditQuery lastQueryAtBureauOfCredit;
+  private List<FinancialMovement> financialMovementList;
+  private LastCreditCardPaymentData lastCreditCardPaymentData;
   private LocalDateTime updatedAt;
 
   public static TraceDataEntity newInstance(TraceDataDto dto) {
